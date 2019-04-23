@@ -1,0 +1,14 @@
+{
+  "name": "atom-jetbrains-dracula-syntax",
+  "theme": "syntax",
+  "description": "Editor theme used by JetBrains",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/atom-jetbrains-dracula-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
