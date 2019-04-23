@@ -16,9 +16,14 @@ atom-text-editor {
     color: @syntax-invisible-character-color;
   }
 
+  .line.cursor-line {
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
   .gutter {
     background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
+    border-right: 1px solid @syntax-gutter-border-color;
 
     .line-number {
       &.cursor-line {
@@ -78,9 +83,9 @@ atom-text-editor {
 }
 
 //Bracket highlight
-.bracket-matcher .region, :host .bracket-matcher -region {
-  color: @red;
-  background: @cyan;
+.bracket-matcher .region,atom-text-editor .bracket-matcher -region {
+  color: @yellow;
+  background: #3b514d;
   border-bottom: none;
 }
 
@@ -284,7 +289,7 @@ atom-text-editor {
   }
 
   &.syntax--separator {
-    background-color: @gray;
+    background-color: @red;
     color: @syntax-text-color;
   }
 
